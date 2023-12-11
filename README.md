@@ -28,3 +28,5 @@ Data analysis and visualization revealed;
 * Recognize and reward high-performing employees.
 * Implement flexible work arrangements to support work-life balance for all employees.
 * Create a culture of open communication and feedback within the company.
+
+Dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data
