@@ -18,9 +18,10 @@ The data cleaning and transformation was done in Excel using advanced power quer
 **Excel
 PowerBi**
 * Used Nested IF function
-=$IFS([@Education]=1,"Below College",[@Education]=2,"College",[@Education]=3,"Bachelor",[@Education]=4,"Master",[@Education]=5,"Doctor")$
+  
+= $IFS([@Education]=1,"Below College",[@Education]=2,"College",[@Education]=3,"Bachelor",[@Education]=4,"Master",[@Education]=5,"Doctor")$
 
-=$IFS([@EnvironmentSatisfaction]=1,"Low",[@EnvironmentSatisfaction]=2,"Medium",[@EnvironmentSatisfaction]=3,"High",[@EnvironmentSatisfaction]=4,"Very High$
+= $IFS([@EnvironmentSatisfaction]=1,"Low",[@EnvironmentSatisfaction]=2,"Medium",[@EnvironmentSatisfaction]=3,"High",[@EnvironmentSatisfaction]=4,"Very High")$
 
 * Adding conditional columns
 * Using Dax to add new measures
