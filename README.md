@@ -13,6 +13,19 @@ The aim of visualizing the data was to;
 
 <img width="581" alt="image" src="https://github.com/pnjambi/PowerBi_HRAnalytics/assets/113362256/e41864a5-c5eb-40cb-849b-26ad01c37f62">
 
+# Data Preparation
+The data cleaning and transformation was done in Excel using advanced power query editor and Power Bi transform.
+**Excel
+PowerBi**
+* Used Nested IF function
+=$IFS([@Education]=1,"Below College",[@Education]=2,"College",[@Education]=3,"Bachelor",[@Education]=4,"Master",[@Education]=5,"Doctor")$
+
+=$IFS([@EnvironmentSatisfaction]=1,"Low",[@EnvironmentSatisfaction]=2,"Medium",[@EnvironmentSatisfaction]=3,"High",[@EnvironmentSatisfaction]=4,"Very High$
+
+* Adding conditional columns
+* Using Dax to add new measures
+
+
 # Findings
 
 Data analysis and visualization revealed;
@@ -29,4 +42,5 @@ Data analysis and visualization revealed;
 * Implement flexible work arrangements to support work-life balance for all employees.
 * Create a culture of open communication and feedback within the company.
 
-Dataset: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data
+Datasource
+https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data
